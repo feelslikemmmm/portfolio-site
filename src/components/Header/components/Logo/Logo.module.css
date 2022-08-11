@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.logo_link {
+  font-size: 18px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
