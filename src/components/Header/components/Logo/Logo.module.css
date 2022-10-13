@@ -12,3 +12,9 @@
   font-size: 18px;
   font-family: 'Noto Sans KR', sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+  .logo_link {
+    font-size: 16px;
+  }
+}

@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import styled from './HeaderContainer.module.css';
 const HeaderContainer = ({ children }: { children: ReactNode }) => {
   return (

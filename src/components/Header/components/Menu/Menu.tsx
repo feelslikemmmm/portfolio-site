@@ -1,27 +1,33 @@
-import React from 'react';
 import styled from './Menu.module.css';
 
-const Menu = () => {
+interface MenuProps {
+  toggle: boolean;
+}
+
+const Menu = ({ toggle }: MenuProps) => {
   return (
-    <div className={styled.contianer}>
-      <ul className={styled.menu_list}>
-        <li className={styled.menu_item}>
-          <a href="#" className={styled.menu_link}>
-            프로필
-          </a>
-        </li>
-        <li className={styled.menu_item}>
-          <a href="#" className={styled.menu_link}>
-            깃허브
-          </a>
-        </li>
-        <li className={styled.menu_item}>
-          <a href="#" className={styled.menu_link}>
-            블로그
-          </a>
-        </li>
-      </ul>
-    </div>
+    <ul
+      className={toggle ? `${styled.mobile_menu_list}` : `${styled.menu_list}`}
+    >
+      <li className={styled.menu_item}>
+        <a
+          href="https://www.linkedin.com/in/%EB%82%99%EC%9B%90-%EC%A0%84-900951204/"
+          className={styled.menu_link}
+        >
+          링크드인
+        </a>
+      </li>
+      <li className={styled.menu_item}>
+        <a href="https://github.com/feelslikemmmm" className={styled.menu_link}>
+          깃허브
+        </a>
+      </li>
+      <li className={styled.menu_item}>
+        <a href="https://medium.com/feelslikemmmm" className={styled.menu_link}>
+          블로그
+        </a>
+      </li>
+    </ul>
   );
 };
 

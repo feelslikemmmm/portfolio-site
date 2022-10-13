@@ -17,3 +17,20 @@
   font-family: 'Noto Sans KR', sans-serif;
   color: #4e5968;
 }
+
+@media screen and (max-width: 786px) {
+  .menu_list {
+    display: none;
+  }
+
+  .mobile_menu_list {
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  .menu_link {
+    font-size: 14px;
+  }
+}
