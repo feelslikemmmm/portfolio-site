@@ -1,4 +1,4 @@
-import styled from './Logo.module.css';
+import styled from './logo.module.css';
 
 const Logo = () => {
   return (

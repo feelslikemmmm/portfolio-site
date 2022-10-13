@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import styled from './HeaderContainer.module.css';
+import styled from './headerContainer.module.css';
 const HeaderContainer = ({ children }: { children: ReactNode }) => {
   return (
     <header className={styled.header}>

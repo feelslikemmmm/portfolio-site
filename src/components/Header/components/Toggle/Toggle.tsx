@@ -1,4 +1,4 @@
-import styled from './Toggle.module.css';
+import styled from './toggle.module.css';
 import { GiHamburgerMenu } from 'react-icons/gi';
 interface ToggleProps {
   toggle: boolean;

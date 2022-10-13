@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Logo from './components/Logo/Logo';
-import Menu from './components/Menu/Menu';
-import Toggle from './components/Toggle/Toggle';
+import Logo from './components/logo/Logo';
+import Menu from './components/menu/Menu';
+import Toggle from './components/toggle/Toggle';
 import HeaderContainer from './containers/HeaderContainer';
 
 const Header = () => {
