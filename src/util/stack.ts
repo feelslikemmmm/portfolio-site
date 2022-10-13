@@ -1,6 +1,7 @@
-import js from '../assets/images/js.png';
-import react from '../assets/images/react.png';
-import ts from '../assets/images/ts.png';
+import js from '@assets/images/js-img.png';
+import react from '@assets/images/react-img.png';
+import ts from '@assets/images/ts-img.png';
+import next from '@assets/images/next-img.png';
 export const stack = [
   {
     id: 1,
@@ -26,7 +27,7 @@ export const stack = [
   {
     id: 4,
     title: '넥스트',
-    images: js,
+    images: next,
     description: `서버사이드 렌더링을 위한, 
     넥스트 JS를 사용하고 있어요`,
   },
