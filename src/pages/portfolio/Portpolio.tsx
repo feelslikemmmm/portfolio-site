@@ -1,6 +1,7 @@
-import Career from './components/Career/Career';
-import Myself from './components/Myself/Myself';
-import Stack from './components/Stack/Stack';
+import Career from '@components/career/Career';
+import Myself from '@components/myself/Myself';
+import Project from '@components/project/Project';
+import Stack from '@components/stack/Stack';
 import PortfolioContainer from './containers/PortfolioContainer';
 
 const Portfolio = () => {
@@ -9,6 +10,7 @@ const Portfolio = () => {
       <Myself />
       <Stack />
       <Career />
+      <Project />
     </PortfolioContainer>
   );
 };

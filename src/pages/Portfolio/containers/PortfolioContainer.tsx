@@ -1,5 +1,6 @@
 import { ReactNode } from 'react';
-import styled from './PortfolioContainer.module.css';
+import styled from './portfolioContainer.module.css';
+
 const PortfolioContainer = ({ children }: { children: ReactNode }) => {
   return (
     <section className={styled.section}>
