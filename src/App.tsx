@@ -1,5 +1,5 @@
-import Header from '@components/Header/Header';
-import Portfolio from '@pages/Portfolio/Portfolio';
+import Header from '@components/header/Header';
+import Portfolio from '@pages/portfolio/Portpolio';
 import styled from '@styles/App.module.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
