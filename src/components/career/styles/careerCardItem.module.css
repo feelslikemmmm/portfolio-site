@@ -1,0 +1,133 @@
+.card_item {
+  width: 466px;
+  height: 372.8px;
+  margin: 14px 0px;
+}
+
+.card_item_box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 32px;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid lightgray;
+}
+
+.card_item_box:hover .url {
+  opacity: 1;
+}
+
+.card_item_box:hover .title {
+  font-size: 28px;
+  transform: translateY(20px);
+}
+
+.card_item_box:hover .icon {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.card_item_box:hover .description {
+  opacity: 1;
+  transform: translateY(-4px);
+}
+
+.url {
+  height: 0px;
+  margin: 0px 0px 8px;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(0, 29, 54, 0.31);
+  opacity: 0;
+  transition: opacity 0.3s ease 0s, height 0.3s ease 0s;
+}
+
+/* .images {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../../../assets/images/quiz.jpeg');
+  background-size: cover;
+  border-radius: 12px;
+  transition: background-image 0.3s ease 0s;
+} */
+
+.title {
+  margin: 0px 0px 20px;
+  font-size: 32px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  line-height: 41px;
+  color: rgb(51, 61, 75);
+  transition: font-size 0.3s ease 0s, line-height 0.3s ease 0s;
+}
+
+.icon {
+  height: 24px;
+  margin-bottom: 20px;
+  overflow-y: hidden;
+  transition: height 0.3s ease 0s, opacity 0.3s ease 0s;
+}
+
+.icon > span {
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  color: rgb(51, 61, 75);
+}
+
+.icon > span > svg {
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  color: rgb(51, 61, 75);
+}
+
+.description {
+  margin: 0px;
+  padding: 4px 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: rgb(51, 61, 75);
+  opacity: 0;
+  transition: opacity 0.3s ease 0s;
+}
+
+@media screen and (max-width: 768px) {
+  .card_item {
+    width: 335px;
+    height: 268px;
+    margin: 10px 0;
+  }
+
+  .card_item_box {
+    padding: 24px;
+  }
+
+  .title {
+    margin: 0 0 10px;
+    font-size: 21px;
+    line-height: 28px;
+    white-space: pre-wrap;
+  }
+
+  .description {
+    font-size: 12px;
+    padding: 2px 0;
+  }
+
+  .card_item_box:hover .title {
+    font-size: 24px;
+    transform: translateY(10px);
+  }
+
+  .card_item_box:hover .description {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+}
