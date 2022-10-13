@@ -1,0 +1,22 @@
+.stack {
+  width: 100%;
+  height: 100vh;
+  background: #f9fafb;
+}
+
+.item__container {
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .stack {
+    margin: 0 auto;
+    height: 100%;
+  }
+  .item__container {
+    width: 92%;
+    margin: 0 auto;
+  }
+}
