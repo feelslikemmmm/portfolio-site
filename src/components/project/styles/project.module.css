@@ -1,0 +1,22 @@
+.project {
+  width: 100%;
+  height: 100%;
+  background: #f9fafb;
+}
+
+.project__container {
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    margin: 0 auto;
+    height: 100%;
+  }
+  .project__container {
+    width: 92%;
+    margin: 0 auto;
+  }
+}
