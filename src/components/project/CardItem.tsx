@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from './styles/card.module.css';
 const Fade = require('react-reveal/Fade');
 
