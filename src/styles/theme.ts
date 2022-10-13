@@ -1,5 +1,3 @@
-import { DefaultTheme } from 'styled-components';
-
 const defaultColor = {
   forcRed: '#EF5B5B',
   black: '#1B1C1D',
@@ -21,11 +19,12 @@ const defaultCursor = {
   none: 'none',
 };
 
-const theme: DefaultTheme = {
+const theme = {
   fontsize: {
     sm: '12px',
     md: '14px',
     lg: '16px',
+    big: '20px',
   },
   color: defaultColor,
   cursor: defaultCursor,
