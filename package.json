@@ -2,6 +2,7 @@
   "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://feelslikemmmm.github.io/portfolio-site/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -23,7 +24,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +47,7 @@
   },
   "devDependencies": {
     "@craco/craco": "^6.4.5",
-    "craco-alias": "^3.0.1"
+    "craco-alias": "^3.0.1",
+    "gh-pages": "^4.0.0"
   }
 }
