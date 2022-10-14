@@ -1,4 +1,4 @@
-import Header from '../src/components/header/Header';
+import Header from '@components/header/Header';
 import Portfolio from '@pages/portfolio/Portpolio';
 import styled from '@styles/App.module.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
