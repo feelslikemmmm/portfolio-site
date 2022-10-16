@@ -7,15 +7,15 @@ export const stack = [
     id: 1,
     title: '자바스크립트',
     images: js,
-    description: `웹 개발의 시작, 
+    description: `웹 개발을 위한, 
     자바스크립트를 사용하고 있어요`,
   },
   {
     id: 2,
     title: '타입스크립트',
     images: ts,
-    description: `자바스크립트 슈퍼셋, 
-    안정성을 높여주는 타입스크립트를 사용하고 있어요`,
+    description: `
+    코드의 가독성과 안정성을 높여주는 타입스크립트를 사용하고 있어요`,
   },
   {
     id: 3,
