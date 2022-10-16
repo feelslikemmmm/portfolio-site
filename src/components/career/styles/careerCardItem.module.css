@@ -33,6 +33,11 @@
   transform: translateY(-4px);
 }
 
+.card_item_box:hover .image {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
 .url {
   height: 0px;
   margin: 0px 0px 8px;
@@ -96,6 +101,15 @@
   color: rgb(51, 61, 75);
   opacity: 0;
   transition: opacity 0.3s ease 0s;
+}
+
+.image {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 50%;
+  opacity: 1;
+  transition: height 0.3s ease 0s, opacity 0.3s ease 0s;
 }
 
 @media screen and (max-width: 768px) {

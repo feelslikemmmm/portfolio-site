@@ -1,16 +1,15 @@
 import styled from './styles/careerCardItem.module.css';
 import { AiOutlinePlusCircle } from 'react-icons/ai';
-
 interface CardItemProps {
   id: number;
   title: string;
   url: string;
-  images: string;
+  images: any;
   description: string[];
 }
 
 const CareerCardItem = ({ work }: { work: CardItemProps }) => {
-  const { title, description } = work;
+  const { title, description, images } = work;
   return (
     <div className={styled.card_item}>
       <div className={styled.card_item_box}>
@@ -29,6 +28,7 @@ const CareerCardItem = ({ work }: { work: CardItemProps }) => {
             {desc}
           </p>
         ))}
+        <img className={styled.image} src={images} alt="work_images" />
       </div>
     </div>
   );
