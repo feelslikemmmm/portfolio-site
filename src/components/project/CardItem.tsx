@@ -13,6 +13,7 @@ const CardItem = ({ item }: any) => {
               <p className={styled.card__description}>{item.front}</p>
               <p className={styled.card__description}>{item.back}</p>
               <p className={styled.card__description}>{item.deploy}</p>
+              <p className={styled.card__description}>{item.role}</p>
               <div className={styled.card__links}>
                 <a href={item.git} target="blank" rel="noopener noreferrer">
                   GITHUB
@@ -43,6 +44,7 @@ const CardItem = ({ item }: any) => {
               <p className={styled.card__description}>{item.front}</p>
               <p className={styled.card__description}>{item.back}</p>
               <p className={styled.card__description}>{item.deploy}</p>
+              <p className={styled.card__description}>{item.role}</p>
               <div className={styled.card__links}>
                 <a href={item.git} target="blank" rel="noopener noreferrer">
                   GITHUB
