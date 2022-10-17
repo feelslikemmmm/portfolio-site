@@ -2,9 +2,22 @@ import CardMakers from '@assets/images/card-makers.gif';
 import Moi from '@assets/images/moi.gif';
 import AirMugPro from '@assets/images/airmug-pro.gif';
 import FindCarrot from '@assets/images/findcarrot.gif';
+import WebPortfolio from '@assets/images/portfolio.gif';
 export const projects = [
   {
     id: 1,
+    main: 'web portfolio',
+    title: '웹 포트폴리오',
+    front: 'Front-end : ReactJS',
+    deploy: 'Deploy : Gitgub-Pages',
+    role: `Role: Front-end`,
+    src: 'https://feelslikemmmm.github.io/portfolio-site/',
+    git: 'https://github.com/feelslikemmmm/portfolio-site',
+    images: WebPortfolio,
+    keys: 'left',
+  },
+  {
+    id: 2,
     main: 'card makers',
     title: '명함 제작 웹 어플리케이션',
     front: 'Front-end : React-Hook, Firebase, Module-CSS',
@@ -14,10 +27,10 @@ export const projects = [
     src: 'https://cardmakers.netlify.app/',
     git: 'https://github.com/feelslikemmmm/card_maker',
     images: CardMakers,
-    keys: 'left',
+    keys: 'right',
   },
   {
-    id: 2,
+    id: 3,
     main: '모두의 이력서',
     title: '취준생을 위한 이력서 작성 플랫폼',
     front: 'Front-end : React, Redux, Redux-saga, Typescript, Module-CSS',
@@ -27,10 +40,10 @@ export const projects = [
     src: 'https://everymoi.com/',
     git: 'https://github.com/codestates/Moi_Client',
     images: Moi,
-    keys: 'right',
+    keys: 'left',
   },
   {
-    id: 3,
+    id: 4,
     main: 'airmug pro',
     title: '인터랙션을 활용한 web site',
     front: 'Front-end : Javascript',
@@ -39,10 +52,10 @@ export const projects = [
     src: 'https://airmug-pro.netlify.app/',
     git: 'https://github.com/feelslikemmmm/Apple-InteractiveWebProject',
     images: AirMugPro,
-    keys: 'left',
+    keys: 'right',
   },
   {
-    id: 4,
+    id: 5,
     main: 'find carrot',
     title: '벌레를 피해 당근 수확하기',
     front: 'Front-end : React',
@@ -51,6 +64,6 @@ export const projects = [
     src: 'https://find-carrot.netlify.app',
     git: 'https://github.com/feelslikemmmm/fun_game',
     images: FindCarrot,
-    keys: 'right',
+    keys: 'left',
   },
 ];
